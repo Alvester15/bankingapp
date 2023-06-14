@@ -1,13 +1,13 @@
 nav {
   display: flex;
   align-items: center;
-  background-color: rgba(223, 27, 27, 0.7);
-  padding-bottom: -20px;
+
   justify-content: space-evenly;
   padding: 0;
   border-color: black;
-  border-style: solid;
-  border: 50px;
+  border-bottom: 3px solid black;
+
+  overflow: hidden;
 }
 .navcenter {
   display: flex;
@@ -21,7 +21,7 @@ nav {
 }
 li {
   text-decoration: none;
-  color: inherit;
+
   list-style: none;
   font-size: 25px;
 }
@@ -29,12 +29,12 @@ li {
 a {
   text-decoration: none;
   font-size: 25px;
+  color: black;
 }
 
 li a:hover {
   color: rgb(0, 0, 255, 0.75);
-  padding-bottom: 20%;
-
+  padding: 17px 0;
   border-bottom-style: solid;
-  border-color: blue;
+  border-bottom: 3px solid black;
 }
