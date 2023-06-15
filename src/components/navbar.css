@@ -10,10 +10,17 @@ nav {
   overflow: hidden;
 }
 .navbegin {
+  display: flex;
+  align-items: center;
+  margin: auto 0;
+}
+.icon {
+  height: 50px;
+  width: 50px;
 }
 .navcenter {
   display: flex;
-  padding: 0 25%;
+  padding: 0 20%;
   gap: 1.25rem;
 }
 
@@ -21,6 +28,7 @@ nav {
   display: flex;
   gap: 1.25rem;
 }
+
 li {
   text-decoration: none;
 
