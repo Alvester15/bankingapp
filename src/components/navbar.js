@@ -1,10 +1,18 @@
 import React from "react";
 import "./navbar.css";
-
+import { ReactComponent as Rocketicon } from "../assets/rocketicon.svg";
 export default function Navbar() {
   return (
     <nav>
-      <h1>AstroBanking</h1>
+      <ul className="navbegin">
+        <li>
+          <h1>AstroBanking</h1>
+        </li>
+        <li>
+          <Rocketicon />
+        </li>
+      </ul>
+
       <ul className="navcenter">
         <li>
           {/* make image home back button */}

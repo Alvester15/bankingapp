@@ -9,6 +9,8 @@ nav {
 
   overflow: hidden;
 }
+.navbegin {
+}
 .navcenter {
   display: flex;
   padding: 0 25%;
