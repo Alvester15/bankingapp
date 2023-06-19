@@ -1,0 +1,51 @@
+.catch {
+  margin: 0;
+  justify-content: center;
+  display: inline-block;
+  height: auto;
+  width: 100%;
+}
+.container {
+  background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80");
+  background-size: cover;
+  height: 100px;
+  width: auto;
+  background-position: 70% 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.catch h1 {
+  color: white;
+}
+
+.Perkchart ul {
+  display: flex;
+  position: relative;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.Interest {
+  border: solid black;
+  background-image: url("https://images.unsplash.com/photo-1579621970343-21c491b3f363?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80");
+
+  height: 300px;
+  width: 25%;
+  z-index: 1;
+}
+
+.Sec {
+  border: solid black;
+  width: 25%;
+  height: 300px;
+}
+
+.Solution {
+  border: solid black;
+  width: 25%;
+  height: 300px;
+}

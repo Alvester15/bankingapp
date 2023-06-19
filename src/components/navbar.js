@@ -8,7 +8,7 @@ export default function Navbar() {
         <li>
           <h1>AstroBanking</h1>
         </li>
-        <li>
+        <li className="icon">
           <Rocketicon />
         </li>
       </ul>
