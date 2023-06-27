@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import { ReactComponent as Rocketicon } from "../assets/rocketicon.svg";
+import Rocket from "../assets/rocketicon.svg";
 export default function Navbar() {
   return (
     <nav>
@@ -9,7 +9,7 @@ export default function Navbar() {
           <h1>AstroBanking</h1>
         </li>
         <li className="icon">
-          <Rocketicon />
+          <img src={Rocket} alt="logo" />
         </li>
       </ul>
 

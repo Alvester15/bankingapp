@@ -20,32 +20,53 @@
   color: white;
 }
 
-.Perkchart ul {
+span.Perkchart {
   display: flex;
-  position: relative;
+
   font-size: 20px;
   align-items: center;
   justify-content: center;
   justify-content: space-evenly;
 }
-
-.Interest {
-  border: solid black;
-  background-image: url("https://images.unsplash.com/photo-1579621970343-21c491b3f363?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80");
-
-  height: 300px;
-  width: 25%;
-  z-index: 1;
+.container-perks {
+  background-color: whitesmoke;
+  margin: 0;
+  padding-bottom: 50px;
+  border: solid whitesmoke;
 }
 
-.Sec {
-  border: solid black;
-  width: 25%;
-  height: 300px;
+.react-multi-carousel-list {
+  padding-left: 80px;
+  text-align: center;
+  background-color: whitesmoke;
 }
 
-.Solution {
-  border: solid black;
-  width: 25%;
-  height: 300px;
+.pitch-image {
+  border-radius: 50px 50px 0px 0px;
+  height: auto;
+  width: 100%;
+}
+
+.card {
+  width: 400px;
+}
+
+.pitch-bot {
+  background-color: gray;
+  height: 200px;
+  border-radius: 0px 0px 50px 50px;
+}
+.pitch-bot h4 {
+  margin: 0;
+}
+
+.react-multi-carousel-list {
+  position: unset !important;
+}
+.react-multiple-carousel__arrow--right {
+  right: calc(1% + 1px) !important;
+}
+
+.react-multiple-carousel__arrow--left {
+  left: calc(1% + 1px) !important;
 }
