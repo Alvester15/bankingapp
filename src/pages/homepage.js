@@ -7,7 +7,6 @@ function Homepage() {
   return (
     <div>
       <Navbar />
-      <Homepagebody />
       <Homepagebd />
     </div>
   );

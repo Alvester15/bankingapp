@@ -17,7 +17,19 @@ export default function Homepagebd() {
   return (
     <div className="container">
       <div className="catch">
-        <h1>Banking Made Astronomically Easier</h1>
+        <h1>Welcome to Banking Made Astronomically Easier</h1>
+      </div>
+      <div className="banner-body">
+        <div className="banner-box">
+          <p>
+            <h2>We</h2> handle your finances! <h2> You</h2> enjoy your life!
+          </p>
+          <div className="banner-buttons">
+            <button>Create An Account</button>
+            <button>Sign In</button>
+            <p>Forgot Username/password</p>
+          </div>
+        </div>
       </div>
       <div className="container-perks">
         <span>

@@ -6,14 +6,15 @@
   width: 100%;
 }
 .container {
-  background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80");
+  /* background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80"); */
   background-size: cover;
   height: 100px;
-  width: auto;
+  width: 100%;
   background-position: 70% 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   z-index: 0;
+  background-color: black;
 }
 
 .catch h1 {
@@ -36,19 +37,20 @@ span.Perkchart {
 }
 
 .react-multi-carousel-list {
-  padding-left: 80px;
+  padding-left: 6.25%;
   text-align: center;
   background-color: whitesmoke;
+  padding: 0 50px;
 }
 
 .pitch-image {
   border-radius: 50px 50px 0px 0px;
-  height: auto;
+
   width: 100%;
 }
 
 .card {
-  width: 400px;
+  width: 75%;
 }
 
 .pitch-bot {
@@ -69,4 +71,54 @@ span.Perkchart {
 
 .react-multiple-carousel__arrow--left {
   left: calc(1% + 1px) !important;
+}
+
+.banner-body {
+  background-image: url("https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+  padding: 400px 200px 400px 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.banner-box {
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 100px 0;
+  position: absolute;
+  border: solid rgba(0, 0, 0, 0.8) 8px;
+  right: 10%;
+  top: 8%;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  width: 35%;
+}
+
+.banner-box p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.banner-box button {
+  background-color: black;
+  font-size: 20px;
+  padding: 15px 55px;
+  border-radius: 25px;
+  color: white;
+  margin-top: 3%;
+}
+
+.banner-box button:hover {
+  background-color: rgb(0, 0, 0, 0.85);
+}
+
+.banner-buttons {
+  display: inline-grid;
+}
+.banner-buttons p {
+  font-size: 15px;
+}
+.banner-buttons p:hover {
+  color: blueviolet;
 }
