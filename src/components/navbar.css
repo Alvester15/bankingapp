@@ -1,6 +1,7 @@
 nav {
   display: flex;
   align-items: center;
+
   padding: 0;
   border-color: black;
   border-bottom: 3px solid black;
@@ -51,8 +52,17 @@ a {
   color: black;
 }
 
+a h1 {
+  font-size: 20px;
+}
+.active {
+  padding: 10px 0;
+  border-bottom-style: solid;
+  border-bottom: 3px solid black;
+}
+
 li a:hover {
-  color: rgb(0, 0, 255, 0.75);
+  color: rgba(0, 0, 0, 0.656);
   padding: 10px 0;
   border-bottom-style: solid;
   border-bottom: 3px solid black;

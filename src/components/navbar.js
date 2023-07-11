@@ -1,6 +1,9 @@
 import React from "react";
 import "./navbar.css";
 import Rocket from "../assets/rocketicon.svg";
+
+// This file is currently useless
+
 export default function Navbar() {
   return (
     <nav>

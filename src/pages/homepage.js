@@ -6,7 +6,6 @@ import Homepagebody from "../components/Homepagebody";
 function Homepage() {
   return (
     <div>
-      <Navbar />
       <Homepagebd />
     </div>
   );

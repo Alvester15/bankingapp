@@ -4,6 +4,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Pitchbar from "./pitchbar";
 import { pitchData, responsive } from "./pitchdata";
+import { Link } from "react-router-dom";
 
 const pitch = pitchData.map((item) => (
   <Pitchbar
@@ -25,9 +26,15 @@ export default function Homepagebd() {
             <h2>We</h2> handle your finances! <h2> You</h2> enjoy your life!
           </p>
           <div className="banner-buttons">
-            <button>Create An Account</button>
-            <button>Sign In</button>
-            <p>Forgot Username/password</p>
+            <Link to="/create">
+              <button>Create An Account</button>
+            </Link>
+            <Link to="/signin">
+              <button>Sign In</button>
+            </Link>
+            <Link to="/forgot">
+              <p>Forgot Username/password</p>
+            </Link>
           </div>
         </div>
       </div>
